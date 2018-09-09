@@ -1,0 +1,401 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* border: 1px dashed red; */
+}
+
+#container{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.container-fluid{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+
+  background:url('file:///H:/Team%20Next/hub090718/assets/images/hub_back.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#logo-banner {
+  height: 16%;
+  width: 100%;
+
+}
+
+#acs_logo{
+  background:url('file:///H:/Team%20Next/hub090718/assets/images/acs_logo.png');
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+}
+
+
+#hub_logo{
+  background:url('file:///H:/Team%20Next/hub090718/assets/images/hub_logo.png');
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+}
+
+
+#main-content{
+
+  margin-top: 5px;
+  height: 45%;
+  width: 100%;
+  background: rgba(35, 47, 62, 0.75);
+}
+
+#link-content, #main-content, #logo-banner{
+  margin: 0;
+  padding: 0;
+}
+#link-content{
+    height: 39%;
+    width: 100%;
+
+}
+
+
+
+#gray-nav-btn{
+  background-image: linear-gradient(45deg,#A8B5B6,#232F3E);
+  display: block;
+  width: 80%;
+  height: 100%;
+  margin:  0 auto;
+  border-radius: 20px;
+  color: white;
+
+}
+#candy-drop{
+  background: rgba(103, 88, 100, 0.3);
+  color: white;
+  width: 80%;
+}
+
+#white-font{
+  color: white;
+}
+
+.sub-link{
+  width: 100%;
+  color: white;
+  text-align: center;
+
+  border:0;
+  border-bottom: 2px white solid;
+  background: rgba(103, 88, 100, 0.3);
+}
+.drop-ul{
+    background: rgba(103, 88, 100, 0.3);
+  width: 100%;
+  margin:0;
+  padding: 0;
+}
+
+.meet_fam,.contact_acs{
+  margin: 10px auto;
+  width: 90%;
+
+}
+.meet_fam{
+  border: 1px solid white;
+  background: rgba(35, 47, 62, 1);
+  height: 75%;
+
+}
+
+.contact_acs{
+  height: 15%;
+  border: 0px;
+  border-radius: 20px;
+}
+#contact_acs{
+  background-image: linear-gradient(45deg,#f6c309,#f29b02);
+  width: 100%;
+    border-radius: 20px;
+
+}
+.sum,.chat{
+  margin: 10px 0;
+  padding: 0;
+  width: 100%;
+  height: 45%;
+  border: 1px solid #f6c309;
+
+}
+.chat{
+  margin-right:0;
+}
+
+#sum-header, #chat-header{
+  height: 28%;
+  width: 100%;
+  padding: 0;
+  margin:0;
+}
+
+#chat-header{
+  background-image: linear-gradient(45deg,#f6c309,#f29b02);
+  margin:0;
+  width:100%;
+
+}
+
+#chat-container{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-size: 30px;
+}
+#sum-header-logo{
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+
+.nav-btn{
+  margin: 0 auto;
+}
+
+.safe-col{
+  border: 1px solid green;
+}
+.safe-drop{
+  height: 18%;
+  margin: 10px auto;
+}
+
+
+
+.safe-nav-col,.risk-nav-col,.JM-nav-col{
+  display: block;
+  height: 250px;
+  margin: 0 auto;
+  /* border: 1px solid green; */ */
+}
+
+.risk-nav-col{
+  height: 80%;
+}
+
+
+
+/* candy background active */
+.drop-back-active{
+  background: linear-gradient(45deg,rgba(127,122,132,0.5) ,rgba(78,70,84,0.5));
+  border-radius: 20px;
+  border-radius:  20px;
+}
+
+.nav-btn-row{
+  height: 50px;
+  background-image: linear-gradient(45deg,#A8B5B6,#232F3E);
+  border-radius: 20px;
+
+}
+
+#safety-btn,#risk-btn{
+  background: transparent;
+  color: white;
+  width: 100%;
+  text-align: center;
+  border: 0;
+  margin:0;
+  padding: 0;
+  font-size: 19px;
+
+}
+
+.angle-i{
+  font-size: 22px;
+  width: 22px;
+  height: 22px;
+
+
+
+}
+
+.icon-border,.right-icon-border{
+  border: 1px solid white;
+  border-radius: 50%;
+
+}
+
+.icon-border{
+    margin-left: 10%;
+}
+.right-icon-border{
+    position: absolute;
+    right: 10px;
+}
+
+.safe-nav-content{
+  height: 70%;
+  margin-top: 10px;
+
+
+}
+
+.amer-row,.apac-row,.emea-row,.ehs-row{
+  height: 40px;
+  margin-top: 5px;
+
+  border-bottom: 2px solid white;
+
+}
+.ehs-row{
+  border:0;
+
+}
+
+.phrase{
+  margin:0;
+  padding: 0;
+  margin-top: -10px;
+  height: 40px;
+
+}
+
+
+
+.hub-nav-link{
+  color: white;
+  text-align: center;
+  width: 100%;
+  background: transparent;
+  margin: 0;
+  border: 0;
+  height: 40px;
+
+}
+
+#safety-drop,#risk-drop{
+  height: 70%;
+
+
+}
+
+
+
+button{
+  outline: none !important;
+}
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu {
+    top: 0;
+    left: 100%;
+    margin-top: -40px;
+    margin-left: 18px;
+    background: linear-gradient(45deg,rgba(127,122,132,0.5) ,rgba(78,70,84,0.5));
+    border-radius: 20px;
+    border-radius:  20px;
+    color: white;
+    width: 260px;
+    z-index: 1050;
+    height: 250px;
+
+}
+.sub-menu-link{
+  height: 15%;
+  width: 100%;
+
+}
+
+
+.risk-nav-content{
+  height: 70%;
+  margin-top: 10px;
+
+}
+
+.bus-row,.next-row,.PG-row{
+  height: 40px;
+  margin-top: 5px;
+
+  border-bottom: 2px solid white;
+
+}
+
+.next-row{
+  border: 0;
+}
+.sub-links {
+  padding: 0;
+  height: 40px;
+  width: 100%;
+  border-bottom: 2px solid white;
+
+}
+
+#submenu-sublink{
+  margin:0;
+}
+
+
+.last-link{
+  border: 0;
+}
+
+
+#emea-submenu{
+  height: 200px;
+  margin-top: -50px;
+}
+
+#ehs-submenu{
+  height: 240px;
+  margin-top: -150px;
+
+}
+
+#apac-submenu{
+  height: 210px;
+}
+
+#bus-submenu{
+  height: 150px;
+
+}
+#PG-submenu{
+  height: 200px;
+
+}
+
+#next-submenu{
+  height: 200px;
+  margin-top: -60px;
+
+}
+
+a{
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+}
+a:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
