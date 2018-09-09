@@ -22,13 +22,13 @@
 			$('#world-map').vectorMap({
 				map: 'world_mill',
 				normalizeFunction: 'polynomial',
-				backgroundColor: 'rgba(40, 60, 80, 1)',
+				backgroundColor: 'transparent',
 				series: {regions: [{values: country_colors,attribute: 'fill'}]},
 
 				onRegionTipShow: function(e, el, code){
 
 					let div = $('<div></div>');
-					div.addClass("div-class");
+					div.addClass("region-info");
 				  div.append($(el[0]).text());
 				  let style = {
             "position": "absolute",

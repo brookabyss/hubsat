@@ -11,6 +11,7 @@ $(document).ready(function(){
   function hideAll(){
     $('#safety-drop').hide();
     $('#risk-drop').hide();
+    $('#JM-drop').hide();
     // $('#amer-submenu').hide();
     // $('#apac-submenu').hide();
     // $('#emea-submenu').hide();
@@ -34,11 +35,12 @@ $(document).on('click','#safety-btn',function(){
   $('#safety-drop').toggle();
 
   if(  $('.safe-nav-col').hasClass('drop-back-active')){
-      $('.safe-nav-col').removeClass('drop-back-active');
-      $('.risk-nav-col').removeClass('drop-back-active');
-
+    $('.safe-nav-col').removeClass('drop-back-active');
+    $('.JM-nav-col').removeClass('drop-back-active');
+    $('.risk-nav-col').removeClass('drop-back-active');
   }
   else{
+    $('.JM-nav-col').removeClass('drop-back-active');
     $('.risk-nav-col').removeClass('drop-back-active');
     $('.safe-nav-col').addClass('drop-back-active');
   }
@@ -48,21 +50,40 @@ $(document).on('click','#safety-btn',function(){
 $(document).on('click','#risk-btn',function(){
 
   $('.dropdown-submenu').hide();
-  $('#safety-drop').hide();
+  hideAll();
   $('#risk-drop').toggle();
-
-
 
   if(  $('.risk-nav-col').hasClass('drop-back-active')  ){
       $('.safe-nav-col').removeClass('drop-back-active');
+      $('.JM-nav-col').removeClass('drop-back-active');
       $('.risk-nav-col').removeClass('drop-back-active');
   }
   else{
     $('.safe-nav-col').removeClass('drop-back-active');
+    $('.JM-nav-col').removeClass('drop-back-active');
     $('.risk-nav-col').addClass('drop-back-active');
   }
 
 
+
+});
+
+$(document).on('click','#JM-btn',function(){
+  $('.dropdown-submenu').hide();
+  hideAll();
+  $('#JM-drop').toggle();
+
+  if(  $('.safe-nav-col').hasClass('drop-back-active')){
+    $('.safe-nav-col').removeClass('drop-back-active');
+    $('.JM-nav-col').removeClass('drop-back-active');
+    $('.risk-nav-col').removeClass('drop-back-active');
+
+  }
+  else{
+    $('.safe-nav-col').removeClass('drop-back-active');
+    $('.risk-nav-col').removeClass('drop-back-active');
+    $('.JM-nav-col').addClass('drop-back-active');
+  }
 
 });
 
@@ -121,8 +142,6 @@ $(document).on('click','#next-link',function(){
 
 $('#next-submenu').toggle();
 $('.dropdown-submenu').not('#next-submenu').hide()
-
-
 
 });
 

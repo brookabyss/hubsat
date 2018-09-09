@@ -213,7 +213,7 @@
 
 }
 
-#safety-btn,#risk-btn{
+#safety-btn,#risk-btn,#JM-btn{
   background: transparent;
   color: white;
   width: 100%;
@@ -267,6 +267,14 @@
 
 }
 
+.JM-amer-row,.JM-apac-row,.JM-emea-row,.TRM-row{
+  height: 40px;
+  margin-top: 5px;
+
+  border-bottom: 2px solid white;
+
+}
+
 .phrase{
   margin:0;
   padding: 0;
@@ -288,7 +296,7 @@
 
 }
 
-#safety-drop,#risk-drop{
+#safety-drop,#risk-drop,#JM-drop{
   height: 70%;
 
 
@@ -330,6 +338,11 @@ button{
   height: 70%;
   margin-top: 10px;
 
+}
+
+.JM-nav-content{
+  height: 70%;
+  margin-top: 10px;
 }
 
 .bus-row,.next-row,.PG-row{
