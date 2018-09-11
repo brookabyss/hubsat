@@ -31,7 +31,7 @@ $(document).ready(function(){
 $(document).on('click','#safety-btn',function(){
   $('.dropdown-submenu').hide();
   $('#risk-drop').hide();
-
+  $('#JM-drop').hide();
   $('#safety-drop').toggle();
 
   if(  $('.safe-nav-col').hasClass('drop-back-active')){
@@ -50,7 +50,8 @@ $(document).on('click','#safety-btn',function(){
 $(document).on('click','#risk-btn',function(){
 
   $('.dropdown-submenu').hide();
-  hideAll();
+  $('#safety-drop').hide();
+  $('#JM-drop').hide();
   $('#risk-drop').toggle();
 
   if(  $('.risk-nav-col').hasClass('drop-back-active')  ){
@@ -70,10 +71,11 @@ $(document).on('click','#risk-btn',function(){
 
 $(document).on('click','#JM-btn',function(){
   $('.dropdown-submenu').hide();
-  hideAll();
+  $('#safety-drop').hide();
+  $('#risk-drop').hide();
   $('#JM-drop').toggle();
 
-  if(  $('.safe-nav-col').hasClass('drop-back-active')){
+  if(  $('.JM-nav-col').hasClass('drop-back-active')){
     $('.safe-nav-col').removeClass('drop-back-active');
     $('.JM-nav-col').removeClass('drop-back-active');
     $('.risk-nav-col').removeClass('drop-back-active');
@@ -147,7 +149,9 @@ $('.dropdown-submenu').not('#next-submenu').hide()
 
 
 
-
+$('.carousel').carousel({
+  interval: 2000
+})
 
 
 

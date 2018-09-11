@@ -33,8 +33,43 @@ iframe{
 }
 
 .region-info{
-  border: 1px solid red;
-  height: 200px;
-  width: 200px;
+  border: 1px solid white;
+  border-radius: 10%;
+  height: 302px;
+  width: 335px;
   margin-top:-20px;
+  background: rgba(197, 199, 203, 0.5);
+  position: absolute;
+  display: none;
+  z-index: 1055;
+
+}
+
+.arrow-left{
+  width: 0px;
+  height: 0;
+  border-top: 120px solid transparent;
+  border-bottom: 120px solid transparent;
+  position: absolute;
+  margin:0;
+  border-right:120px solid rgba(246,195,9,0.5);
+  display: inline;
+}
+
+.region-row{
+  height: 25%;
+  border-bottom: 1px solid white;
+  margin:0;
+}
+.last-row{
+  border:0;
+}
+
+.region-img{
+  height: 60px;
+  display: :inline-block;
+  width: 60px;
+  border: 1px solid orange;
+  border-radius: 50%;
+  margin: 5px;
 }

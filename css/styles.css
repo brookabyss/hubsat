@@ -413,3 +413,37 @@ a:hover {
     color: white !important;
     text-decoration: none !important;
 }
+#chatCarousel{height:100%
+width:100%;
+margin:0;
+padding:0;}
+
+.chat-cont{
+  margin:0;
+  padding:0;
+}
+
+#myCarousel-indicators > li {
+  border-radius: 50%;
+}
+
+.full-name{
+  color: orange;
+  text-align: left;
+  width: 100%;
+}
+.region-title{
+  color: white;
+  text-align: left;
+  width: 100%;
+  margin:0;
+  height: 40%;
+}
+
+.region-text{
+  width:73%;
+  height: 90%;
+  display: inline-block;
+  margin:0;
+  padding:0;
+}
