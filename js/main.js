@@ -149,8 +149,14 @@ $('.dropdown-submenu').not('#next-submenu').hide()
 
 
 
-$('.carousel').carousel({
-  interval: 2000
+$('.chat-carousel').carousel({
+  interval: 3000
+});
+$('.sum-carousel').carousel({
+  interval: 3000
+});
+$('.fam-carousel').carousel({
+  interval: 3000
 })
 
 
